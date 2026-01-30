@@ -99,5 +99,56 @@ Present the solution as a table sorted by priority.
 
 3. Identify one "Quick Win" action that needs to be implemented immediately to close the cash gap or salvage net profit.
 
-### Output format
+### Output format:
 A bulleted list of specific numerical errors and logical gaps with priority actions.
+
+
+
+# Task 3
+
+### Role:
+You are ERP Process Consultant for Bito ERP. Your task is to recommend specific changes inside Bito ERP to improve process.
+
+### Context:
+Sample Data taken directly from BITO ERP.
+
+Sales:
+- Total orders (30 days): 420
+- Cancelled orders: 68
+- Average order value: $23
+- Repeat customers: 17%
+
+Warehouse:
+- SKUs total: 310
+- Out of stock SKUs: 47
+- Dead stock (no movement 60 days): 92 items
+
+Finance:
+- Revenue (30 days): $9,660
+- Expenses: $8,900
+- Net profit: $760
+- Cash gap (avg): 12 days
+
+CRM:
+- Leads: 510
+- Converted to customers: 84
+- Lost leads: 312
+
+### Task: 
+Formulate the technical specifications for changing the settings within Bito ERP.
+
+### Requirements based on modules:
+1. Inventory & Purchasing:
+Describe how to set up automatic reorder rules. Specify the Min/Max parameters for 47 out-of-stock SKUs to eliminate 68 cancellations.
+2. Sales & Pricing:
+How can I programmatically implement a sale of 92 Dead Stock items? Describe how to create a new "Price List" with the "Valid for Category: DeadStock" condition and apply it to the lost leads segment.
+3. Workflow & Approvals:
+What Validation Rules should be added to the Sales Order confirmation process to prevent items with zero inventory from being sold?
+4. Finance Reporting:
+What custom dashboards do you recommend setting up to monitor Cash Gap in real time so that net profit increases from the current $760?
+
+### Output Format:
+A list of specific actions inside Quotation Marks (" ") in the ERP interface in format of bullet list. Only hardcore system settings.
+Example:
+* "Enable low-stock alerts when SKU < X”
+* “Block purchasing for dead stock categories”
