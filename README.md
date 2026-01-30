@@ -92,10 +92,10 @@ Using figures provided several "holes" identified throug which money is wasted.
 
 2. Impact/Effort:
 Present the solution as a table sorted by priority.
-1. Action: Specific operational step (no generalities).
-2. Rationale: What report number will this change?
-3. Difficulty: (Low/Medium/High).
-4. Impact on profit: (1-10).
+ 1. Action: Specific operational step (no generalities).
+ 2. Rationale: What report number will this change?
+ 3. Difficulty: (Low/Medium/High).
+ 4. Impact on profit: (1-10).
 
 3. Identify one "Quick Win" action that needs to be implemented immediately to close the cash gap or salvage net profit.
 
